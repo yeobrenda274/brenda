@@ -1,3 +1,5 @@
+@media screen and (max-width: 640px) {
+
 body {
   background-color: rgb(134, 167, 136);
 
@@ -146,4 +148,5 @@ ul {
     border-radius: 50%;
 }
 
+}
 }
