@@ -1,0 +1,143 @@
+body {
+  background-color: rgb(134, 167, 136);
+
+h1 {
+    color: rgb(255, 207, 207);
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+} 
+
+h2 {
+    color: rgb(255, 226, 226);
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+h3 {
+    color: rgb(255, 253, 236);
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+
+h4, p, ul, :link {
+    color: white;
+    font-family:'Montserrat', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.intro-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 2%;
+}
+
+.profile-pic {
+    width: 20%;
+    border-style: solid;
+    border-color: white;
+    border-radius: 50%;
+    margin-top: 2%;
+}
+
+.intro {
+    width: 40%;;
+    text-align: right;
+}
+
+.work-title {
+  clear: right;
+  
+}
+
+.work-container {
+  display: flex;
+  justify-content: center;
+  gap: 2%
+  
+}
+
+.work {
+  box-sizing: border-box;
+  padding: 1%;
+  width: 30%;
+  height: auto;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(255, 253, 236);
+  border-radius: 15px;
+  text-align: center;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: center;
+  gap: 2%
+}
+
+.skills {
+  box-sizing: border-box;
+  padding: 1%;
+  width: 19.3%;
+  height: auto;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(255, 253, 236);
+  border-radius: 15px;
+  text-align: center;
+}
+
+.organic-synthesis, .cca, .nus, .rvhs {
+  box-sizing: border-box;
+  padding: 1%;
+  width: 62%;
+  height: auto;
+  margin: auto;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(255, 253, 236);
+  border-radius: 15px;
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+.med-bio-container {
+  display: flex;
+  justify-content: center;
+  gap: 2%
+}
+
+.med-chem { 
+  box-sizing: border-box;
+  padding: 1%;
+  width: 30%;
+  height: auto;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(255, 253, 236);
+  border-radius: 15px;
+  text-align: center;
+}
+
+.chem-bio {
+  box-sizing: border-box;
+  padding: 1%;
+  width: 30%;
+  height: auto;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(255, 253, 236);
+  border-radius: 15px;
+  text-align: center;
+}
+
+
+.images {
+    object-fit: cover;
+    width: 15vw;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+}
+
+}
