@@ -20,9 +20,15 @@ h3 {
     text-align: center;
 }
 
-h4, p, ul, :link {
+h4, p, link {
     color: white;
     font-family:'Montserrat', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul {
+    color: white;
+    font-family:'Montserrat', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
 }
 
 .intro-container {
@@ -88,7 +94,7 @@ h4, p, ul, :link {
   text-align: center;
 }
 
-.organic-synthesis, .cca, .nus, .rvhs {
+.organic-synthesis, .cca, .nus, .rvhs, .contact {
   box-sizing: border-box;
   padding: 1%;
   width: 62%;
